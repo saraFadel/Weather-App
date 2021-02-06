@@ -1,0 +1,68 @@
+body{
+    font-family: Garamond, sans-serif;
+    width: 100%;
+    color: #888;
+    background: #e7d5cb;
+    text-align: center;
+}
+#app{
+  height: 100%;
+}
+
+#container{
+    background: #fefefe;
+    font-size: 20px;
+    display: block;
+    position: center;
+    margin: 2% 15%;
+    border-radius: 12px;
+}
+img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+h2{
+  text-align: center;
+}
+#myInput{
+  margin: 10px 0;
+}
+input{
+    display:block;
+    width: 100px;
+    background:#ffffff;
+    font-size: 20px;
+    border: 1px solid #888;
+    display: block;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background: #e7d5cb;
+    color: #888;
+    font-size: 26px;
+    border-radius: 5%;
+    box-shadow: 2px 4px 5px #444;
+    border: none;
+    margin-left: 70px;
+}
+#zipInput{
+  display: flex;
+  justify-content: center;
+}
+#reslt{
+  display: flex;
+}
+.box{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  justify-content: space-around;
+}
+.box div{
+  font-weight: bolder;
+}
+.box p{
+  margin-top: -5px;
+}
