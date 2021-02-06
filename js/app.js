@@ -1,5 +1,5 @@
 /* Global Variables */
-const baseUrl = `http://api.openweathermap.org/data/2.5/weather?zip=`;
+const baseUrl = `https://api.openweathermap.org/data/2.5/weather?zip=`;
 const apiKey = ',us&appid=932c995e7a84e179178cca3fc9b238e5';
 const celsius = '&units=metric';
 //Select html elements to use later
